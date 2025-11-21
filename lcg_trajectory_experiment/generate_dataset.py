@@ -73,11 +73,11 @@ if __name__ == '__main__':
     x_solution, x_history = conjugate_gradient(A, b, max_iters=max_iterations)
 
     # --- Save history ---
-    torch.save(x_history, 'cg_curve_prediction/x_history.pt')
-    print(f"Saved solution history of {len(x_history)} iterations to cg_curve_prediction/x_history.pt")
+    torch.save(x_history, 'lcg_trajectory_experiment/x_history.pt')
+    print(f"Saved solution history of {len(x_history)} iterations to lcg_trajectory_experiment/x_history.pt")
 
     # --- Plot trajectories for visual inspection ---
     # We need to move the plot into the new directory
     plot_trajectories(x_history)
     import os
-    os.rename('cg_trajectories.png', 'cg_curve_prediction/cg_trajectories.png')
+    os.rename('cg_trajectories.png', 'lcg_trajectory_experiment/cg_trajectories.png')

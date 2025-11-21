@@ -123,8 +123,8 @@ def plot_loss_comparison(standard_residuals, accelerated_residuals):
     plt.yscale('log')
     plt.legend()
     plt.grid(True)
-    plt.savefig('cg_curve_prediction/loss_comparison.png')
-    print("Saved loss comparison plot to cg_curve_prediction/loss_comparison.png")
+    plt.savefig('lcg_trajectory_experiment/loss_comparison.png')
+    print("Saved loss comparison plot to lcg_trajectory_experiment/loss_comparison.png")
 
 if __name__ == '__main__':
     # --- Parameters ---
