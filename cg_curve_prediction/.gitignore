@@ -1,0 +1,5 @@
+# Ignore generated files
+*.npz
+*.npy
+*.png
+__pycache__/
