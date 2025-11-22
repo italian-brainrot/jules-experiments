@@ -163,4 +163,4 @@ cython_debug/
 # # no # ha ha remnants from some other stuff
 
 # glioblastoma_diff/
-# HistogramLayer.py
+# HistogramLayer.py*.png
