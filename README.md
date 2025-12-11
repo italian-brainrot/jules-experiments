@@ -4,7 +4,7 @@ After performing an experiment, make README.md file in the new folder with resul
 
 ### Tips
 
-Use `mnist1d` and `light_dataloader` for very fast training:
+- Use `mnist1d` and `light_dataloader` for very fast training:
 
 ```python
 import torch
@@ -25,3 +25,4 @@ for inputs, targets in dl_train:
     ...
 ```
 
+- When comparing training routines, tune learning rate for a fair comparison
