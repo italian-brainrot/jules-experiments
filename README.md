@@ -25,4 +25,4 @@ for inputs, targets in dl_train:
     ...
 ```
 
-- When comparing training routines, tune learning rate for a fair comparison
+- When comparing training routines, it is important to compare them fairly by tuning the learning rate. Use grid search for expensive routines and optuna for ones that are fast to evaluate.
