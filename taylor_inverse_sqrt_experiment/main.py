@@ -15,20 +15,20 @@ def inv_sqrt_svd(A):
     U, s, Vh = svd(A)
     return U @ np.diag(1.0 / np.sqrt(s)) @ Vh
 
-def inv_sqrt_newton(A, num_iter=20):
+def inv_sqrt_newton(A, num_iter=10):
     """
-    Computes the inverse square root of a symmetric matrix using the Newton-Raphson method.
+    Computes the inverse square root of a symmetric matrix using the Denman-Beavers iteration.
     """
-    I = np.eye(A.shape[0])
-
-    lambda_max = np.linalg.eigvalsh(A)[-1]
-
-    X = I / np.sqrt(lambda_max)
+    Y = A
+    Z = np.eye(A.shape[0])
 
     for _ in range(num_iter):
-        X = 0.5 * X @ (3 * I - A @ X @ X)
+        Y_inv = np.linalg.inv(Y)
+        Z_inv = np.linalg.inv(Z)
+        Y = 0.5 * (Y + Z_inv)
+        Z = 0.5 * (Z + Y_inv)
 
-    return X
+    return Z
 
 def generate_spd_matrix(n):
     """Generates a symmetric positive-definite matrix of size n x n."""
