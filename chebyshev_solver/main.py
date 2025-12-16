@@ -82,7 +82,9 @@ def chebyshev_sqrt_solver(A_op, b, lambda_min, lambda_max, degree=20):
     # --- FIX: Use Chebyshev Nodes for fitting ---
     # Generate roots of the Chebyshev polynomial of degree 'num_points'
     # These cluster at the edges (-1 and 1) to prevent Runge's phenomenon.
-    num_points = degree + 1  # Or higher, e.g., 100
+    # num_points = degree + 1  # Or higher, e.g., 100
+    # k = np.arange(1, num_points + 1)
+    num_points = 2 * degree + 1
     k = np.arange(1, num_points + 1)
     cheb_nodes = np.cos((2 * k - 1) / (2 * num_points) * np.pi)
 
@@ -108,20 +110,17 @@ def chebyshev_sqrt_solver(A_op, b, lambda_min, lambda_max, degree=20):
     return res
 
 def chebyshev_solver_main(A_op, b, lanczos_steps=30, chebyshev_degree=20):
-    """
-    Main solver that combines eigenvalue estimation and Chebyshev approximation.
-    """
     lambda_min, lambda_max = estimate_eigenvalues(A_op, n_steps=lanczos_steps)
 
-    # --- FIX: Apply Spectral Padding ---
-    # Expand the range by a small factor (e.g., 5-10%) to ensure
-    # the true eigenvalues lie strictly within the mapping interval.
-    spectral_width = lambda_max - lambda_min
-    padding = 0.05 * spectral_width
+    # --- FIXED PADDING LOGIC ---
+    # Pad the upper bound comfortably (linear functions are safe here)
+    lambda_max = lambda_max * 1.05
 
-    lambda_min = lambda_min - padding
-    lambda_max = lambda_max + padding
-    # -----------------------------------
+    # Pad the lower bound RELATIVE to itself.
+    # Do NOT subtract a fraction of the total width.
+    # We want a margin, but we must stay away from the singularity at 0.
+    lambda_min = lambda_min * 0.9
+    # ---------------------------
 
     # Add a small shift to avoid singularity (and ensure min > 0)
     lambda_min = max(lambda_min, 1e-6)
