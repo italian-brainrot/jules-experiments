@@ -75,25 +75,33 @@ def estimate_eigenvalues(A_op, n_steps=30):
     return np.min(eigvals), np.max(eigvals)
 
 def chebyshev_sqrt_solver(A_op, b, lambda_min, lambda_max, degree=20):
-    """
-    Solves A^{-1/2}b using a Chebyshev polynomial approximation.
-    THIS IMPLEMENTATION IS BUGGY AND DOES NOT WORK.
-    """
-    # Map the interval [lambda_min, lambda_max] to [-1, 1] for Chebyshev polynomials
+    # Map the interval [lambda_min, lambda_max] to [-1, 1]
     g = lambda y: (y * (lambda_max - lambda_min) + (lambda_max + lambda_min)) / 2
     f = lambda y: g(y)**(-0.5)
 
-    # Compute coefficients of the Chebyshev expansion of f
-    coeffs = np.polynomial.chebyshev.chebfit(np.linspace(-1, 1, 100), f(np.linspace(-1, 1, 100)), degree)
+    # --- FIX: Use Chebyshev Nodes for fitting ---
+    # Generate roots of the Chebyshev polynomial of degree 'num_points'
+    # These cluster at the edges (-1 and 1) to prevent Runge's phenomenon.
+    num_points = degree + 1  # Or higher, e.g., 100
+    k = np.arange(1, num_points + 1)
+    cheb_nodes = np.cos((2 * k - 1) / (2 * num_points) * np.pi)
 
-    # Clenshaw's algorithm for p(A)b
+    # Fit on these nodes
+    coeffs = np.polynomial.chebyshev.chebfit(cheb_nodes, f(cheb_nodes), degree)
+    # ------------------------------------------
+
+    # Clenshaw's algorithm (Forward Summation)
+    # Note: Ensure lambda_max != lambda_min to avoid division by zero
+    diff = lambda_max - lambda_min
+    avg = (lambda_max + lambda_min) / 2
+
     w0 = b
-    w1 = (A_op @ b - (lambda_max + lambda_min) / 2 * b) * (2 / (lambda_max - lambda_min))
+    w1 = (A_op @ b - avg * b) * (2 / diff)
 
     res = coeffs[0] * w0 + coeffs[1] * w1
 
     for i in range(2, degree + 1):
-        wi = 2 * ((A_op @ w1 - (lambda_max + lambda_min) / 2 * w1) * (2 / (lambda_max - lambda_min))) - w0
+        wi = 2 * ((A_op @ w1 - avg * w1) * (2 / diff)) - w0
         res = res + coeffs[i] * wi
         w0, w1 = w1, wi
 
@@ -105,7 +113,17 @@ def chebyshev_solver_main(A_op, b, lanczos_steps=30, chebyshev_degree=20):
     """
     lambda_min, lambda_max = estimate_eigenvalues(A_op, n_steps=lanczos_steps)
 
-    # Add a small shift to avoid singularity
+    # --- FIX: Apply Spectral Padding ---
+    # Expand the range by a small factor (e.g., 5-10%) to ensure
+    # the true eigenvalues lie strictly within the mapping interval.
+    spectral_width = lambda_max - lambda_min
+    padding = 0.05 * spectral_width
+
+    lambda_min = lambda_min - padding
+    lambda_max = lambda_max + padding
+    # -----------------------------------
+
+    # Add a small shift to avoid singularity (and ensure min > 0)
     lambda_min = max(lambda_min, 1e-6)
 
     x = chebyshev_sqrt_solver(A_op, b, lambda_min, lambda_max, degree=chebyshev_degree)
