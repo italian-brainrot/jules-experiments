@@ -1,0 +1,7 @@
+torch
+mnist1d
+light_dataloader
+optuna
+pandas
+plotly
+kaleido
