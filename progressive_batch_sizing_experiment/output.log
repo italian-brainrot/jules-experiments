@@ -1,0 +1,365 @@
+[I 2026-01-19 07:17:17,060] A new study created in memory with name: no-name-c45a08f2-7a82-4a44-b121-92bfd1c376e7
+[I 2026-01-19 07:17:26,852] Trial 0 finished with value: 0.002601998209953308 and parameters: {'lr': 0.004951315861117711}. Best is trial 0 with value: 0.002601998209953308.
+[I 2026-01-19 07:17:30,327] Trial 1 finished with value: 0.0026271554231643676 and parameters: {'lr': 0.005710077466184887}. Best is trial 0 with value: 0.002601998209953308.
+[I 2026-01-19 07:17:33,415] Trial 2 finished with value: 0.0033047447204589842 and parameters: {'lr': 0.023449727572706566}. Best is trial 0 with value: 0.002601998209953308.
+[I 2026-01-19 07:17:36,703] Trial 3 finished with value: 0.003448325276374817 and parameters: {'lr': 0.06279835158696058}. Best is trial 0 with value: 0.002601998209953308.
+[I 2026-01-19 07:17:41,569] Trial 4 finished with value: 0.0029885241985321046 and parameters: {'lr': 0.00015517771720605994}. Best is trial 0 with value: 0.002601998209953308.
+[I 2026-01-19 07:17:46,207] Trial 5 finished with value: 0.002105843782424927 and parameters: {'lr': 0.0011430048880081579}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:17:49,385] Trial 6 finished with value: 0.002715320587158203 and parameters: {'lr': 0.00023871955287735317}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:17:52,608] Trial 7 finished with value: 0.0031655514240264892 and parameters: {'lr': 0.00012040047535713478}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:17:56,366] Trial 8 finished with value: 0.003016077399253845 and parameters: {'lr': 0.026217308847748425}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:18:01,356] Trial 9 finished with value: 0.0023601964712142943 and parameters: {'lr': 0.003136530179615941}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:18:04,822] Trial 10 finished with value: 0.002107875943183899 and parameters: {'lr': 0.0010094486194942235}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:18:07,618] Trial 11 finished with value: 0.002214695334434509 and parameters: {'lr': 0.0006152629297755084}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:18:10,490] Trial 12 finished with value: 0.0038104223012924193 and parameters: {'lr': 2.1094458953053382e-05}. Best is trial 5 with value: 0.002105843782424927.
+[I 2026-01-19 07:18:13,010] Trial 13 finished with value: 0.0020839287042617796 and parameters: {'lr': 0.0011429626697357406}. Best is trial 13 with value: 0.0020839287042617796.
+[I 2026-01-19 07:18:15,512] Trial 14 finished with value: 0.0021079959869384764 and parameters: {'lr': 0.0012196384877767108}. Best is trial 13 with value: 0.0020839287042617796.
+[I 2026-01-19 07:18:18,024] Trial 15 finished with value: 0.0036185117959976194 and parameters: {'lr': 3.2312505639556916e-05}. Best is trial 13 with value: 0.0020839287042617796.
+[I 2026-01-19 07:18:20,555] Trial 16 finished with value: 0.0022251764535903933 and parameters: {'lr': 0.0022472376240301913}. Best is trial 13 with value: 0.0020839287042617796.
+[I 2026-01-19 07:18:23,223] Trial 17 finished with value: 0.0023877005577087403 and parameters: {'lr': 0.000387712217988771}. Best is trial 13 with value: 0.0020839287042617796.
+[I 2026-01-19 07:18:25,978] Trial 18 finished with value: 0.0029160826206207275 and parameters: {'lr': 0.012397621531845834}. Best is trial 13 with value: 0.0020839287042617796.
+[I 2026-01-19 07:18:28,574] Trial 19 finished with value: 0.003412375092506409 and parameters: {'lr': 5.9074025875457976e-05}. Best is trial 13 with value: 0.0020839287042617796.
+[I 2026-01-19 07:18:41,763] A new study created in memory with name: no-name-08ac060e-5573-45d2-9247-c397d2cfdc1d
+[I 2026-01-19 07:18:41,978] Trial 0 finished with value: 0.0026732844114303587 and parameters: {'lr': 0.0013887302998722242}. Best is trial 0 with value: 0.0026732844114303587.
+[I 2026-01-19 07:18:42,188] Trial 1 finished with value: 0.0043904011249542236 and parameters: {'lr': 3.750736175757886e-05}. Best is trial 0 with value: 0.0026732844114303587.
+[I 2026-01-19 07:18:42,397] Trial 2 finished with value: 0.003988076090812683 and parameters: {'lr': 9.861115180125022e-05}. Best is trial 0 with value: 0.0026732844114303587.
+[I 2026-01-19 07:18:42,609] Trial 3 finished with value: 0.003995235443115234 and parameters: {'lr': 0.0001106736969661298}. Best is trial 0 with value: 0.0026732844114303587.
+[I 2026-01-19 07:18:42,813] Trial 4 finished with value: 0.00226185417175293 and parameters: {'lr': 0.002862424413929097}. Best is trial 4 with value: 0.00226185417175293.
+[I 2026-01-19 07:18:43,019] Trial 5 finished with value: 0.004592081546783447 and parameters: {'lr': 1.3550641198388619e-05}. Best is trial 4 with value: 0.00226185417175293.
+[I 2026-01-19 07:18:43,240] Trial 6 finished with value: 0.002133866786956787 and parameters: {'lr': 0.005444921412407839}. Best is trial 6 with value: 0.002133866786956787.
+[I 2026-01-19 07:18:43,469] Trial 7 finished with value: 0.004573212385177612 and parameters: {'lr': 1.1110702639779962e-05}. Best is trial 6 with value: 0.002133866786956787.
+[I 2026-01-19 07:18:43,682] Trial 8 finished with value: 0.00276487135887146 and parameters: {'lr': 0.0270783045018878}. Best is trial 6 with value: 0.002133866786956787.
+[I 2026-01-19 07:18:43,887] Trial 9 finished with value: 0.004374592781066894 and parameters: {'lr': 4.1217825471636055e-05}. Best is trial 6 with value: 0.002133866786956787.
+[I 2026-01-19 07:18:44,101] Trial 10 finished with value: 0.003114846587181091 and parameters: {'lr': 0.09259272420669051}. Best is trial 6 with value: 0.002133866786956787.
+[I 2026-01-19 07:18:44,313] Trial 11 finished with value: 0.0021727911233901977 and parameters: {'lr': 0.004375961480087692}. Best is trial 6 with value: 0.002133866786956787.
+[I 2026-01-19 07:18:44,523] Trial 12 finished with value: 0.0020952240228652953 and parameters: {'lr': 0.005991416963496774}. Best is trial 12 with value: 0.0020952240228652953.
+[I 2026-01-19 07:18:44,736] Trial 13 finished with value: 0.002178789973258972 and parameters: {'lr': 0.0071259189523498094}. Best is trial 12 with value: 0.0020952240228652953.
+[I 2026-01-19 07:18:44,965] Trial 14 finished with value: 0.003288129568099976 and parameters: {'lr': 0.0005355680767528324}. Best is trial 12 with value: 0.0020952240228652953.
+[I 2026-01-19 07:18:45,186] Trial 15 finished with value: 0.002400626540184021 and parameters: {'lr': 0.015885927081766213}. Best is trial 12 with value: 0.0020952240228652953.
+[I 2026-01-19 07:18:45,409] Trial 16 finished with value: 0.0032259124517440797 and parameters: {'lr': 0.0006159122906348554}. Best is trial 12 with value: 0.0020952240228652953.
+[I 2026-01-19 07:18:45,637] Trial 17 finished with value: 0.003062310814857483 and parameters: {'lr': 0.05295176903161707}. Best is trial 12 with value: 0.0020952240228652953.
+[I 2026-01-19 07:18:45,856] Trial 18 finished with value: 0.002312951683998108 and parameters: {'lr': 0.011498398874807698}. Best is trial 12 with value: 0.0020952240228652953.
+[I 2026-01-19 07:18:46,101] Trial 19 finished with value: 0.0024198155403137205 and parameters: {'lr': 0.001980249754649246}. Best is trial 12 with value: 0.0020952240228652953.
+File already exists. Skipping download.
+Successfully loaded data from ./mnist1d_data.pkl
+Strategy: small_fixed, Epoch: 1, Val Loss: 0.0034528716802597046
+Strategy: small_fixed, Epoch: 2, Val Loss: 0.003192224383354187
+Strategy: small_fixed, Epoch: 3, Val Loss: 0.002982661843299866
+Strategy: small_fixed, Epoch: 4, Val Loss: 0.00275508177280426
+Strategy: small_fixed, Epoch: 5, Val Loss: 0.002612699270248413
+Strategy: small_fixed, Epoch: 6, Val Loss: 0.002490657687187195
+Strategy: small_fixed, Epoch: 7, Val Loss: 0.0024033442735671997
+Strategy: small_fixed, Epoch: 8, Val Loss: 0.0023434147834777833
+Strategy: small_fixed, Epoch: 9, Val Loss: 0.0022411335706710818
+Strategy: small_fixed, Epoch: 10, Val Loss: 0.002234452486038208
+Strategy: small_fixed, Epoch: 11, Val Loss: 0.0021741496324539185
+Strategy: small_fixed, Epoch: 12, Val Loss: 0.002159831404685974
+Strategy: small_fixed, Epoch: 13, Val Loss: 0.002132493257522583
+Strategy: small_fixed, Epoch: 14, Val Loss: 0.0021360092163085938
+Strategy: small_fixed, Epoch: 15, Val Loss: 0.0021323596239089964
+Strategy: small_fixed, Epoch: 16, Val Loss: 0.0021385875940322877
+Strategy: small_fixed, Epoch: 17, Val Loss: 0.002097217321395874
+Strategy: small_fixed, Epoch: 18, Val Loss: 0.0021186590194702147
+Strategy: small_fixed, Epoch: 19, Val Loss: 0.0021327060461044313
+Strategy: small_fixed, Epoch: 20, Val Loss: 0.0021200876235961913
+Strategy: small_fixed, Epoch: 21, Val Loss: 0.0021264777183532713
+Strategy: small_fixed, Epoch: 22, Val Loss: 0.002109410285949707
+Strategy: small_fixed, Epoch: 23, Val Loss: 0.00213642418384552
+Strategy: small_fixed, Epoch: 24, Val Loss: 0.002154718279838562
+Strategy: small_fixed, Epoch: 25, Val Loss: 0.0021566044092178344
+Strategy: small_fixed, Epoch: 26, Val Loss: 0.0021302385330200196
+Strategy: small_fixed, Epoch: 27, Val Loss: 0.002160395264625549
+Strategy: small_fixed, Epoch: 28, Val Loss: 0.0021543490886688234
+Strategy: small_fixed, Epoch: 29, Val Loss: 0.0021831125020980837
+Strategy: small_fixed, Epoch: 30, Val Loss: 0.0022099342346191407
+Strategy: small_fixed, Epoch: 31, Val Loss: 0.002175505518913269
+Strategy: small_fixed, Epoch: 32, Val Loss: 0.0021639633178710937
+Strategy: small_fixed, Epoch: 33, Val Loss: 0.0022109678983688354
+Strategy: small_fixed, Epoch: 34, Val Loss: 0.002246993064880371
+Strategy: small_fixed, Epoch: 35, Val Loss: 0.002234770178794861
+Strategy: small_fixed, Epoch: 36, Val Loss: 0.0022646254301071167
+Strategy: small_fixed, Epoch: 37, Val Loss: 0.0022455345392227172
+Strategy: small_fixed, Epoch: 38, Val Loss: 0.0022642289400100707
+Strategy: small_fixed, Epoch: 39, Val Loss: 0.0023340210914611814
+Strategy: small_fixed, Epoch: 40, Val Loss: 0.002316988468170166
+Strategy: small_fixed, Epoch: 41, Val Loss: 0.0023037288188934328
+Strategy: small_fixed, Epoch: 42, Val Loss: 0.002311729907989502
+Strategy: small_fixed, Epoch: 43, Val Loss: 0.0023380264043807984
+Strategy: small_fixed, Epoch: 44, Val Loss: 0.002370248198509216
+Strategy: small_fixed, Epoch: 45, Val Loss: 0.0023571959733963014
+Strategy: small_fixed, Epoch: 46, Val Loss: 0.002373048186302185
+Strategy: small_fixed, Epoch: 47, Val Loss: 0.00240839147567749
+Strategy: small_fixed, Epoch: 48, Val Loss: 0.002413146734237671
+Strategy: small_fixed, Epoch: 49, Val Loss: 0.002405617356300354
+Strategy: small_fixed, Epoch: 50, Val Loss: 0.002450677275657654
+Strategy: small_fixed, Epoch: 51, Val Loss: 0.0024241691827774046
+Strategy: small_fixed, Epoch: 52, Val Loss: 0.00248303484916687
+Strategy: small_fixed, Epoch: 53, Val Loss: 0.0024759016036987303
+Strategy: small_fixed, Epoch: 54, Val Loss: 0.0025074347257614134
+Strategy: small_fixed, Epoch: 55, Val Loss: 0.0025118184089660644
+Strategy: small_fixed, Epoch: 56, Val Loss: 0.002498550891876221
+Strategy: small_fixed, Epoch: 57, Val Loss: 0.0025471513271331787
+Strategy: small_fixed, Epoch: 58, Val Loss: 0.002579018473625183
+Strategy: small_fixed, Epoch: 59, Val Loss: 0.002580734372138977
+Strategy: small_fixed, Epoch: 60, Val Loss: 0.002595638632774353
+Strategy: small_fixed, Epoch: 61, Val Loss: 0.0026272006034851075
+Strategy: small_fixed, Epoch: 62, Val Loss: 0.0026103283166885377
+Strategy: small_fixed, Epoch: 63, Val Loss: 0.0026183247566223143
+Strategy: small_fixed, Epoch: 64, Val Loss: 0.002631790280342102
+Strategy: small_fixed, Epoch: 65, Val Loss: 0.0027062071561813356
+Strategy: small_fixed, Epoch: 66, Val Loss: 0.002653875470161438
+Strategy: small_fixed, Epoch: 67, Val Loss: 0.0026842141151428222
+Strategy: small_fixed, Epoch: 68, Val Loss: 0.0027158299684524535
+Strategy: small_fixed, Epoch: 69, Val Loss: 0.0027166012525558472
+Strategy: small_fixed, Epoch: 70, Val Loss: 0.002739998936653137
+Strategy: small_fixed, Epoch: 71, Val Loss: 0.0027513158321380614
+Strategy: small_fixed, Epoch: 72, Val Loss: 0.00273725163936615
+Strategy: small_fixed, Epoch: 73, Val Loss: 0.002755418062210083
+Strategy: small_fixed, Epoch: 74, Val Loss: 0.0028471412658691406
+Strategy: small_fixed, Epoch: 75, Val Loss: 0.0028349246978759766
+Strategy: small_fixed, Epoch: 76, Val Loss: 0.0028578908443450926
+Strategy: small_fixed, Epoch: 77, Val Loss: 0.002856041073799133
+Strategy: small_fixed, Epoch: 78, Val Loss: 0.0028799872398376464
+Strategy: small_fixed, Epoch: 79, Val Loss: 0.002875007152557373
+Strategy: small_fixed, Epoch: 80, Val Loss: 0.0029099522829055787
+Strategy: small_fixed, Epoch: 81, Val Loss: 0.0029630192518234253
+Strategy: small_fixed, Epoch: 82, Val Loss: 0.002976381540298462
+Strategy: small_fixed, Epoch: 83, Val Loss: 0.0029421069622039796
+Strategy: small_fixed, Epoch: 84, Val Loss: 0.0029905033111572265
+Strategy: small_fixed, Epoch: 85, Val Loss: 0.003023722529411316
+Strategy: small_fixed, Epoch: 86, Val Loss: 0.0029937872886657713
+Strategy: small_fixed, Epoch: 87, Val Loss: 0.0029844943284988404
+Strategy: small_fixed, Epoch: 88, Val Loss: 0.0030469772815704347
+Strategy: small_fixed, Epoch: 89, Val Loss: 0.0030772217512130737
+Strategy: small_fixed, Epoch: 90, Val Loss: 0.003063599109649658
+Strategy: small_fixed, Epoch: 91, Val Loss: 0.003098527669906616
+Strategy: small_fixed, Epoch: 92, Val Loss: 0.0031121976375579835
+Strategy: small_fixed, Epoch: 93, Val Loss: 0.0031195814609527588
+Strategy: small_fixed, Epoch: 94, Val Loss: 0.003170372009277344
+Strategy: small_fixed, Epoch: 95, Val Loss: 0.0031866921186447144
+Strategy: small_fixed, Epoch: 96, Val Loss: 0.0031941441297531127
+Strategy: small_fixed, Epoch: 97, Val Loss: 0.003207716703414917
+Strategy: small_fixed, Epoch: 98, Val Loss: 0.0032821547985076903
+Strategy: small_fixed, Epoch: 99, Val Loss: 0.003280667781829834
+Strategy: small_fixed, Epoch: 100, Val Loss: 0.003283510208129883
+Strategy: large_fixed, Epoch: 1, Val Loss: 0.0035541683435440065
+Strategy: large_fixed, Epoch: 2, Val Loss: 0.0033350281715393065
+Strategy: large_fixed, Epoch: 3, Val Loss: 0.0032257914543151857
+Strategy: large_fixed, Epoch: 4, Val Loss: 0.0030370376110076904
+Strategy: large_fixed, Epoch: 5, Val Loss: 0.0028607715368270874
+Strategy: large_fixed, Epoch: 6, Val Loss: 0.0026923905611038208
+Strategy: large_fixed, Epoch: 7, Val Loss: 0.0025644246339797975
+Strategy: large_fixed, Epoch: 8, Val Loss: 0.0024641828536987303
+Strategy: large_fixed, Epoch: 9, Val Loss: 0.002397258758544922
+Strategy: large_fixed, Epoch: 10, Val Loss: 0.002324443817138672
+Strategy: large_fixed, Epoch: 11, Val Loss: 0.002272372007369995
+Strategy: large_fixed, Epoch: 12, Val Loss: 0.0022498447895050048
+Strategy: large_fixed, Epoch: 13, Val Loss: 0.002217073440551758
+Strategy: large_fixed, Epoch: 14, Val Loss: 0.0022050838470458983
+Strategy: large_fixed, Epoch: 15, Val Loss: 0.0022100943326950075
+Strategy: large_fixed, Epoch: 16, Val Loss: 0.0022053016424179077
+Strategy: large_fixed, Epoch: 17, Val Loss: 0.0021756387948989866
+Strategy: large_fixed, Epoch: 18, Val Loss: 0.0021865935325622557
+Strategy: large_fixed, Epoch: 19, Val Loss: 0.002242990493774414
+Strategy: large_fixed, Epoch: 20, Val Loss: 0.0022038180828094483
+Strategy: large_fixed, Epoch: 21, Val Loss: 0.0022180415391921996
+Strategy: large_fixed, Epoch: 22, Val Loss: 0.0022151893377304077
+Strategy: large_fixed, Epoch: 23, Val Loss: 0.0022347943782806395
+Strategy: large_fixed, Epoch: 24, Val Loss: 0.00223085618019104[I 2026-01-19 07:18:47,212] A new study created in memory with name: no-name-fbc3a9c5-9b5a-4f35-8e8f-fd935ba2c438
+[I 2026-01-19 07:18:48,710] Trial 0 finished with value: 0.002478608012199402 and parameters: {'lr': 0.009971748185224567}. Best is trial 0 with value: 0.002478608012199402.
+[I 2026-01-19 07:18:50,344] Trial 1 finished with value: 0.0021301047801971437 and parameters: {'lr': 0.0010401197170560627}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:18:51,826] Trial 2 finished with value: 0.004134854555130005 and parameters: {'lr': 1.4799814562556637e-05}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:18:53,314] Trial 3 finished with value: 0.002332909107208252 and parameters: {'lr': 0.006172774155858544}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:18:54,847] Trial 4 finished with value: 0.003391197085380554 and parameters: {'lr': 9.672501471300725e-05}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:18:56,342] Trial 5 finished with value: 0.004121507167816162 and parameters: {'lr': 1.7710873248360902e-05}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:18:57,820] Trial 6 finished with value: 0.00410262656211853 and parameters: {'lr': 1.6289867107543787e-05}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:18:59,360] Trial 7 finished with value: 0.0027222733497619628 and parameters: {'lr': 0.02116880280958612}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:19:00,871] Trial 8 finished with value: 0.0023631964921951294 and parameters: {'lr': 0.0066604222521103925}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:19:02,402] Trial 9 finished with value: 0.002707115411758423 and parameters: {'lr': 0.09881422984362205}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:19:04,001] Trial 10 finished with value: 0.0027141090631484987 and parameters: {'lr': 0.0003780916313525389}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:19:05,539] Trial 11 finished with value: 0.002142950415611267 and parameters: {'lr': 0.001433187762728987}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:19:07,192] Trial 12 finished with value: 0.002194771766662598 and parameters: {'lr': 0.0009552647227755728}. Best is trial 1 with value: 0.0021301047801971437.
+[I 2026-01-19 07:19:08,854] Trial 13 finished with value: 0.0020952664613723753 and parameters: {'lr': 0.001411448847298428}. Best is trial 13 with value: 0.0020952664613723753.
+[I 2026-01-19 07:19:10,402] Trial 14 finished with value: 0.0030965217351913454 and parameters: {'lr': 0.00019280075656098237}. Best is trial 13 with value: 0.0020952664613723753.
+[I 2026-01-19 07:19:11,992] Trial 15 finished with value: 0.00210648512840271 and parameters: {'lr': 0.0014367994137186614}. Best is trial 13 with value: 0.0020952664613723753.
+[I 2026-01-19 07:19:13,768] Trial 16 finished with value: 0.0021653214693069457 and parameters: {'lr': 0.002610926176914446}. Best is trial 13 with value: 0.0020952664613723753.
+[I 2026-01-19 07:19:16,899] Trial 17 finished with value: 0.0034151091575622557 and parameters: {'lr': 9.81230030940206e-05}. Best is trial 13 with value: 0.0020952664613723753.
+[I 2026-01-19 07:19:18,510] Trial 18 finished with value: 0.0026552665233612062 and parameters: {'lr': 0.0003833291645387313}. Best is trial 13 with value: 0.0020952664613723753.
+[I 2026-01-19 07:19:20,003] Trial 19 finished with value: 0.002505488157272339 and parameters: {'lr': 0.0389569570223749}. Best is trial 13 with value: 0.0020952664613723753.
+
+Strategy: large_fixed, Epoch: 25, Val Loss: 0.0022622911930084227
+Strategy: large_fixed, Epoch: 26, Val Loss: 0.0022613290548324583
+Strategy: large_fixed, Epoch: 27, Val Loss: 0.0022565338611602783
+Strategy: large_fixed, Epoch: 28, Val Loss: 0.002260409593582153
+Strategy: large_fixed, Epoch: 29, Val Loss: 0.0022679709196090697
+Strategy: large_fixed, Epoch: 30, Val Loss: 0.002263909339904785
+Strategy: large_fixed, Epoch: 31, Val Loss: 0.002301024079322815
+Strategy: large_fixed, Epoch: 32, Val Loss: 0.0022914296388626097
+Strategy: large_fixed, Epoch: 33, Val Loss: 0.002339285969734192
+Strategy: large_fixed, Epoch: 34, Val Loss: 0.0023213220834732056
+Strategy: large_fixed, Epoch: 35, Val Loss: 0.00234598445892334
+Strategy: large_fixed, Epoch: 36, Val Loss: 0.0024390814304351806
+Strategy: large_fixed, Epoch: 37, Val Loss: 0.002405527114868164
+Strategy: large_fixed, Epoch: 38, Val Loss: 0.0023609676361083984
+Strategy: large_fixed, Epoch: 39, Val Loss: 0.0023548121452331545
+Strategy: large_fixed, Epoch: 40, Val Loss: 0.0023965132236480713
+Strategy: large_fixed, Epoch: 41, Val Loss: 0.002382108211517334
+Strategy: large_fixed, Epoch: 42, Val Loss: 0.0024343044757843017
+Strategy: large_fixed, Epoch: 43, Val Loss: 0.002426522731781006
+Strategy: large_fixed, Epoch: 44, Val Loss: 0.0024229583740234375
+Strategy: large_fixed, Epoch: 45, Val Loss: 0.002502213716506958
+Strategy: large_fixed, Epoch: 46, Val Loss: 0.002493218183517456
+Strategy: large_fixed, Epoch: 47, Val Loss: 0.0024728280305862426
+Strategy: large_fixed, Epoch: 48, Val Loss: 0.0024953789710998537
+Strategy: large_fixed, Epoch: 49, Val Loss: 0.0025077145099639893
+Strategy: large_fixed, Epoch: 50, Val Loss: 0.0025247952938079834
+Strategy: large_fixed, Epoch: 51, Val Loss: 0.0025371941328048704
+Strategy: large_fixed, Epoch: 52, Val Loss: 0.0025555211305618285
+Strategy: large_fixed, Epoch: 53, Val Loss: 0.002558371305465698
+Strategy: large_fixed, Epoch: 54, Val Loss: 0.002588508725166321
+Strategy: large_fixed, Epoch: 55, Val Loss: 0.0026009979248046875
+Strategy: large_fixed, Epoch: 56, Val Loss: 0.0026698086261749267
+Strategy: large_fixed, Epoch: 57, Val Loss: 0.0026228017807006835
+Strategy: large_fixed, Epoch: 58, Val Loss: 0.002653703212738037
+Strategy: large_fixed, Epoch: 59, Val Loss: 0.0026906695365905764
+Strategy: large_fixed, Epoch: 60, Val Loss: 0.002681894063949585
+Strategy: large_fixed, Epoch: 61, Val Loss: 0.0027039507627487185
+Strategy: large_fixed, Epoch: 62, Val Loss: 0.0027406163215637205
+Strategy: large_fixed, Epoch: 63, Val Loss: 0.0027451118230819704
+Strategy: large_fixed, Epoch: 64, Val Loss: 0.0027958736419677736
+Strategy: large_fixed, Epoch: 65, Val Loss: 0.002741662263870239
+Strategy: large_fixed, Epoch: 66, Val Loss: 0.002776288628578186
+Strategy: large_fixed, Epoch: 67, Val Loss: 0.0027996933460235594
+Strategy: large_fixed, Epoch: 68, Val Loss: 0.002814509630203247
+Strategy: large_fixed, Epoch: 69, Val Loss: 0.002835564851760864
+Strategy: large_fixed, Epoch: 70, Val Loss: 0.002858449697494507
+Strategy: large_fixed, Epoch: 71, Val Loss: 0.002896790623664856
+Strategy: large_fixed, Epoch: 72, Val Loss: 0.00291087806224823
+Strategy: large_fixed, Epoch: 73, Val Loss: 0.002925572156906128
+Strategy: large_fixed, Epoch: 74, Val Loss: 0.0029450398683547973
+Strategy: large_fixed, Epoch: 75, Val Loss: 0.002957955598831177
+Strategy: large_fixed, Epoch: 76, Val Loss: 0.0029723860025405884
+Strategy: large_fixed, Epoch: 77, Val Loss: 0.002961086392402649
+Strategy: large_fixed, Epoch: 78, Val Loss: 0.0029644650220870972
+Strategy: large_fixed, Epoch: 79, Val Loss: 0.003011807084083557
+Strategy: large_fixed, Epoch: 80, Val Loss: 0.0030023874044418333
+Strategy: large_fixed, Epoch: 81, Val Loss: 0.0030117106437683107
+Strategy: large_fixed, Epoch: 82, Val Loss: 0.0030271155834198
+Strategy: large_fixed, Epoch: 83, Val Loss: 0.003101891040802002
+Strategy: large_fixed, Epoch: 84, Val Loss: 0.003043937683105469
+Strategy: large_fixed, Epoch: 85, Val Loss: 0.0031004012823104858
+Strategy: large_fixed, Epoch: 86, Val Loss: 0.003111393690109253
+Strategy: large_fixed, Epoch: 87, Val Loss: 0.003128978729248047
+Strategy: large_fixed, Epoch: 88, Val Loss: 0.003121237635612488
+Strategy: large_fixed, Epoch: 89, Val Loss: 0.003159008622169495
+Strategy: large_fixed, Epoch: 90, Val Loss: 0.003183416485786438
+Strategy: large_fixed, Epoch: 91, Val Loss: 0.003182554841041565
+Strategy: large_fixed, Epoch: 92, Val Loss: 0.0032205165624618532
+Strategy: large_fixed, Epoch: 93, Val Loss: 0.003206691861152649
+Strategy: large_fixed, Epoch: 94, Val Loss: 0.0032338593006134035
+Strategy: large_fixed, Epoch: 95, Val Loss: 0.0032548431158065795
+Strategy: large_fixed, Epoch: 96, Val Loss: 0.0032541282176971435
+Strategy: large_fixed, Epoch: 97, Val Loss: 0.0032591700553894045
+Strategy: large_fixed, Epoch: 98, Val Loss: 0.003320399165153503
+Strategy: large_fixed, Epoch: 99, Val Loss: 0.0032952513694763184
+Strategy: large_fixed, Epoch: 100, Val Loss: 0.0033245028257369996
+Strategy: progressive, Epoch: 1, Val Loss: 0.003524259686470032
+Strategy: progressive, Epoch: 2, Val Loss: 0.0033105485439300537
+Strategy: progressive, Epoch: 3, Val Loss: 0.0031393693685531614
+Strategy: progressive, Epoch: 4, Val Loss: 0.0029627429246902467
+Strategy: progressive, Epoch: 5, Val Loss: 0.002801957368850708
+Strategy: progressive, Epoch: 6, Val Loss: 0.0026529349088668824
+Strategy: progressive, Epoch: 7, Val Loss: 0.002555402636528015
+Strategy: progressive, Epoch: 8, Val Loss: 0.0024449321031570436
+Strategy: progressive, Epoch: 9, Val Loss: 0.0023745753765106203
+Strategy: progressive, Epoch: 10, Val Loss: 0.002317670464515686
+Strategy: progressive, Epoch: 11, Val Loss: 0.002256900191307068
+Strategy: progressive, Epoch: 12, Val Loss: 0.002222138285636902
+Strategy: progressive, Epoch: 13, Val Loss: 0.002194605350494385
+Strategy: progressive, Epoch: 14, Val Loss: 0.0021680245399475096
+Strategy: progressive, Epoch: 15, Val Loss: 0.002153406023979187
+Strategy: progressive, Epoch: 16, Val Loss: 0.0021401110887527466
+Strategy: progressive, Epoch: 17, Val Loss: 0.0021183377504348753
+Strategy: progressive, Epoch: 18, Val Loss: 0.0021187875270843506
+Strategy: progressive, Epoch: 19, Val Loss: 0.0021086565256118774
+Strategy: progressive, Epoch: 20, Val Loss: 0.002094891428947449
+Strategy: progressive, Epoch: 21, Val Loss: 0.00210400915145874
+Strategy: progressive, Epoch: 22, Val Loss: 0.002099791765213013
+Strategy: progressive, Epoch: 23, Val Loss: 0.0020869927406311035
+Strategy: progressive, Epoch: 24, Val Loss: 0.002097100853919983
+Strategy: progressive, Epoch: 25, Val Loss: 0.0021038304567337035
+Strategy: progressive, Epoch: 26, Val Loss: 0.0020813357830047606
+Strategy: progressive, Epoch: 27, Val Loss: 0.0021179611682891845
+Strategy: progressive, Epoch: 28, Val Loss: 0.0020920156240463255
+Strategy: progressive, Epoch: 29, Val Loss: 0.0020892127752304077
+Strategy: progressive, Epoch: 30, Val Loss: 0.0021151820421218873
+Strategy: progressive, Epoch: 31, Val Loss: 0.002114243507385254
+Strategy: progressive, Epoch: 32, Val Loss: 0.00211896538734436
+Strategy: progressive, Epoch: 33, Val Loss: 0.002123653769493103
+Strategy: progressive, Epoch: 34, Val Loss: 0.002136352062225342
+Strategy: progressive, Epoch: 35, Val Loss: 0.0021425793170928957
+Strategy: progressive, Epoch: 36, Val Loss: 0.0021369551420211794
+Strategy: progressive, Epoch: 37, Val Loss: 0.0021586941480636595
+Strategy: progressive, Epoch: 38, Val Loss: 0.0021518619060516358
+Strategy: progressive, Epoch: 39, Val Loss: 0.0021643781661987303
+Strategy: progressive, Epoch: 40, Val Loss: 0.0021571170091629027
+Strategy: progressive, Epoch: 41, Val Loss: 0.0021830328702926636
+Strategy: progressive, Epoch: 42, Val Loss: 0.002191083550453186
+Strategy: progressive, Epoch: 43, Val Loss: 0.0021914210319519045
+Strategy: progressive, Epoch: 44, Val Loss: 0.002193313717842102
+Strategy: progressive, Epoch: 45, Val Loss: 0.002198052644729614
+Strategy: progressive, Epoch: 46, Val Loss: 0.002209528923034668
+Strategy: progressive, Epoch: 47, Val Loss: 0.0022336931228637696
+Strategy: progressive, Epoch: 48, Val Loss: 0.002263071298599243
+Strategy: progressive, Epoch: 49, Val Loss: 0.002244979500770569
+Strategy: progressive, Epoch: 50, Val Loss: 0.002238257169723511
+Strategy: progressive, Epoch: 51, Val Loss: 0.002241716742515564
+Strategy: progressive, Epoch: 52, Val Loss: 0.002250218152999878
+Strategy: progressive, Epoch: 53, Val Loss: 0.002244422197341919
+Strategy: progressive, Epoch: 54, Val Loss: 0.0022659876346588135
+Strategy: progressive, Epoch: 55, Val Loss: 0.0022879565954208375
+Strategy: progressive, Epoch: 56, Val Loss: 0.0022935329675674437
+Strategy: progressive, Epoch: 57, Val Loss: 0.0022733293771743774
+Strategy: progressive, Epoch: 58, Val Loss: 0.002314309000968933
+Strategy: progressive, Epoch: 59, Val Loss: 0.0023187830448150636
+Strategy: progressive, Epoch: 60, Val Loss: 0.0023385211229324343
+Strategy: progressive, Epoch: 61, Val Loss: 0.0023433399200439454
+Strategy: progressive, Epoch: 62, Val Loss: 0.0023252416849136354
+Strategy: progressive, Epoch: 63, Val Loss: 0.002347272515296936
+Strategy: progressive, Epoch: 64, Val Loss: 0.0023451406955718995
+Strategy: progressive, Epoch: 65, Val Loss: 0.002344424843788147
+Strategy: progressive, Epoch: 66, Val Loss: 0.002381250500679016
+Strategy: progressive, Epoch: 67, Val Loss: 0.0024030659198760987
+Strategy: progressive, Epoch: 68, Val Loss: 0.0024027267694473266
+Strategy: progressive, Epoch: 69, Val Loss: 0.0023943461179733276
+Strategy: progressive, Epoch: 70, Val Loss: 0.0024113746881484987
+Strategy: progressive, Epoch: 71, Val Loss: 0.00241644561290741
+Strategy: progressive, Epoch: 72, Val Loss: 0.002417872667312622
+Strategy: progressive, Epoch: 73, Val Loss: 0.0024504270553588866
+Strategy: progressive, Epoch: 74, Val Loss: 0.0024368107318878175
+Strategy: progressive, Epoch: 75, Val Loss: 0.0024681850671768187
+Strategy: progressive, Epoch: 76, Val Loss: 0.002461998224258423
+Strategy: progressive, Epoch: 77, Val Loss: 0.0024902212619781496
+Strategy: progressive, Epoch: 78, Val Loss: 0.0025141317844390868
+Strategy: progressive, Epoch: 79, Val Loss: 0.002495203971862793
+Strategy: progressive, Epoch: 80, Val Loss: 0.0024994857311248777
+Strategy: progressive, Epoch: 81, Val Loss: 0.0025125980377197266
+Strategy: progressive, Epoch: 82, Val Loss: 0.0025396710634231568
+Strategy: progressive, Epoch: 83, Val Loss: 0.0025295162200927733
+Strategy: progressive, Epoch: 84, Val Loss: 0.0025495355129241943
+Strategy: progressive, Epoch: 85, Val Loss: 0.0025918854475021364
+Strategy: progressive, Epoch: 86, Val Loss: 0.002567191243171692
+Strategy: progressive, Epoch: 87, Val Loss: 0.0026029070615768432
+Strategy: progressive, Epoch: 88, Val Loss: 0.0025702202320098877
+Strategy: progressive, Epoch: 89, Val Loss: 0.002609722137451172
+Strategy: progressive, Epoch: 90, Val Loss: 0.0026351388692855836
+Strategy: progressive, Epoch: 91, Val Loss: 0.0026138166189193725
+Strategy: progressive, Epoch: 92, Val Loss: 0.002649261951446533
+Strategy: progressive, Epoch: 93, Val Loss: 0.002649489164352417
+Strategy: progressive, Epoch: 94, Val Loss: 0.002660709261894226
+Strategy: progressive, Epoch: 95, Val Loss: 0.002691768050193787
+Strategy: progressive, Epoch: 96, Val Loss: 0.0026896249055862425
+Strategy: progressive, Epoch: 97, Val Loss: 0.0026939330101013186
+Strategy: progressive, Epoch: 98, Val Loss: 0.0026939451694488526
+Strategy: progressive, Epoch: 99, Val Loss: 0.0027190533876419068
+Strategy: progressive, Epoch: 100, Val Loss: 0.0027881325483322143
