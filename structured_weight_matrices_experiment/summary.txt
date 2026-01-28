@@ -1,0 +1,4 @@
+Dense: Params=5110, Best LR=0.018293, Final Acc=0.6110
+Kronecker: Params=310, Best LR=0.012270, Final Acc=0.4390
+LowRankDiag: Params=410, Best LR=0.024766, Final Acc=0.3880
+Sparse: Params=5110, Best LR=0.013030, Final Acc=0.3110
